@@ -11,12 +11,48 @@
 	.img_banner {border-radius:10px;}
 	.font1{font-size:40px;}
 	.font2{font-size:30px;}
-	.img_rounded:hover{rotate:-5dge; opacity:70%;}
+	.img_rounded:hover{ rotate:-5dge; opacity:70%;}
 	.font2:hover{ background-color:black; color: white;}
 	
+		.navbar {
+	  overflow: hidden;
+	  background-color: #333;
+	  position: fixed;
+	  top: 0;
+	  width: 100%;
+	}
+
+	.navbar a {
+	  float: left;
+	  display: block;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+
+	.navbar a:hover {
+	  background: #ddd;
+	  color: black;
+	}
+
 	</style>
 </head>
 <body>
+
+	<div class="navbar">
+	  <a href="#s0">回首頁</a>
+	  <a href="#s1">台中國家歌劇院</a>
+	  <a href="#s2">臺中州廳</a>
+	  <a href="#s3">審計新村</a>
+	</div>
+
+	<div id="s0"></div>
+	<br>
+	<br>
+	<br>
+
 	<div id="container">
 	<table>
 
@@ -34,7 +70,7 @@
 			</td>
 		</tr>
 		<tr>
-			<td><img class="img_rounded"src="01.jpeg">
+			<td><img id="s1" class="img_rounded"src="01.jpeg">
 			</td>
 			
 
@@ -57,12 +93,12 @@
 				所在位置：台中市西區民權路99號
 			</td>
 
-			<td><img class="img_rounded" src=	"02.jpeg">
+			<td><img id="s2" class="img_rounded" src=	"02.jpeg">
 
 			</td>
 		</tr>
 		<tr>
-			<td><img class="img_rounded" src="03.jpeg">
+			<td><img id="s3" class="img_rounded" src="03.jpeg">
 			</td>
 
 			<td>
@@ -76,9 +112,16 @@
 			</td>
 		</tr>
 		<tr>
-			<td></td>
-			<td></td>
+			<td colspan="2">
+				<iframe frameborder="0" src="https://www.google.com/maps/d/embed?mid=1HnRZm6Is5_ARor2DUfEYebRep_3Uavk&ehbc=2E312F" width="1024" height="800"></iframe>
+			</td>
+
+			<tr>
+				<td height="50px" bgcolor="black" colspan="2">
+					<font color="white">陳宜彤製作 2024 </font>
+				</td>
 		</tr>
+
 	</table>
 </div>
 </body>
